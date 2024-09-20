@@ -1,0 +1,381 @@
+body{
+
+    background-image: url(bg.png);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+    .bgimg {
+
+  background-image: none;
+
+}
+
+
+
+}
+
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+
+
+
+    .bgimg {
+
+  background-image: none;
+
+}
+
+
+
+}
+
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+
+
+
+    .bgimg {
+
+  background-image: none;
+
+}
+
+
+
+}
+
+
+
+.text{
+
+    /* margin-top: 200px; */
+
+    
+
+     text-align: center;
+
+    
+
+}
+
+.form{
+
+    margin:auto;
+
+    /* margin-right: 10px; */
+
+    
+
+}
+
+.foot{
+
+    display: -webkit-inline-flex !important;
+
+}
+
+.newstyle{
+
+    background-color: #f1eded;
+
+    text-align: center;
+
+    height: 460px;
+
+    width: 516px;
+
+    /* box-shadow: 11px 11px; */
+
+    box-shadow: 0 8px 14px 0 rgba(34, 23, 23, 0.2), 0 6px 20px 0 rgba(24, 21, 21, 0.19);
+
+}
+
+
+/* .io input{
+
+    text-align: center;
+
+} */
+
+/* .login-inner-form{
+
+    text-align: center;
+
+} */
+
+.text img{
+
+    height: 626px;
+
+    /* margin-left: 285px; */
+
+    /* width: 50%; */
+
+    display: initial;
+
+    margin-top: 3px;
+
+    /* margin-left: 25px; */
+
+    padding-left: 101px;
+
+
+
+}
+
+.btn{
+
+    background-color: rgb(240, 158, 8);
+
+    height: 55px !important;
+
+    width: 450px !important;
+
+    /* margin-top: 100px ; */
+
+    /* margin-left: 85px; */
+
+    font-weight: solid;
+
+}
+
+
+
+.forgot{
+
+    float: inline-end;
+
+    
+
+}
+
+/* .logo{
+
+    
+
+    /* text-align: center; */
+
+    /* margin-right: 50px; */
+
+
+
+.details {
+
+    /* margin-left: 230px; */
+
+    height: 100px;
+
+    width: 150px;
+
+
+
+}
+
+.io{
+
+    /* width: 100%; */
+
+    padding: 10px 25px;
+
+    /* font-size: 16px; */
+
+    /* outline: 0; */
+
+    font-weight: 400;
+
+    /* color: #c7bebe; */
+
+    height: 55px;
+
+    display: initial;
+
+    
+
+    /* text-align: center !important; */
+
+    /* border-radius: 3px; */
+
+    /* border: 1px solid #fff; */
+
+}
+
+.io input{
+
+    height: 55px;
+
+    width: 450px;
+
+    /* text-align: center; */
+
+    display: initial;
+
+    /* margin-left: 60px; */
+
+}
+
+.input{
+
+    display: initial;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+
+
+.check{
+
+    height: 24px !important;
+
+    float: inline-start !important;
+
+    margin-top: 80px !important;
+
+    /* margin-left: 65px !important; */
+
+  }
+
+.form p{
+
+    float: inline-start !important;
+
+}
+
+.account p{
+
+    margin-top: 10px;
+
+    /* margin-left: 140px; */
+
+}
+
+.account{
+
+    margin-bottom: 1px !important;
+
+}
+
+.btn:hover{
+
+    background-color: rgb(182, 201, 16);
+
+}
+
+.reg:hover{
+
+    color: blue;
+
+    text-decoration: none;
+
+}
+
+.foot small a:hover{
+
+    color: blue !important;
+
+    text-decoration: none !important;
+
+
+
+}
+
+.io input:hover{
+
+    border-color: tomato !important;
+
+}
+
+@-moz-document url-prefix(){
+
+    .account p{
+
+        margin-top: 10px;
+
+        margin-left: 120px;
+
+        
+
+    }
+
+    .foot{
+
+    margin-left: 190px !important;
+
+    }
+
+}
+
+/* @media only screen and (max-width: 1026px) { 
+
+    #fadeshow1 { 
+
+      display: none; 
+
+    } 
+
+  } */
+
+/* body {
+
+    background-image: url('Axo-Right copy 2.png'); 
+
+    color: #080808;
+
+    background-position: center;
+
+    
+
+    
+
+    background-repeat: no-repeat;
+
+} */
+
+ /* .input{
+
+max-width: 500px;
+
+margin: 0 auto;
+
+width: 100%;
+
+background: rgb(88, 47, 47);
+
+padding: 50px;
+
+border-radius: 30px;
+
+box-shadow: 0 0 35px rgb(0 0 0 / 10%);
+
+text-align: left;
+
+position: relative;
+
+z-index: 0;
+
+}  */
+
+
+
+
+
